@@ -25,4 +25,8 @@ struct Global {
     static var totalBudget: Double = 0
     static var totalExpense: Double = 0
     
+    static var newCategoryName: String = ""
+    static var newCategoryAmount: Double = 0
+    static var isNewCategoryAdded: Bool = false
+    
 }

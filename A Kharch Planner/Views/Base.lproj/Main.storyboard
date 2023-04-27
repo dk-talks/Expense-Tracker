@@ -244,7 +244,11 @@
                                     <constraint firstAttribute="height" constant="50" id="JRi-zl-DDo"/>
                                 </constraints>
                                 <color key="tintColor" systemColor="labelColor"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Add Category" cornerStyle="capsule"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Add New Budget Category" cornerStyle="capsule"/>
+                                <connections>
+                                    <action selector="btnAddBudgetCategoryTapped:" destination="Uk4-L6-f5t" eventType="touchUpInside" id="SJP-y4-kNj"/>
+                                    <segue destination="24u-g8-1te" kind="presentation" modalPresentationStyle="fullScreen" id="J8e-Xh-gDy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="b5t-mm-hLh"/>
@@ -268,7 +272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xTV-bv-py2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3213" y="-414"/>
+            <point key="canvasLocation" x="3213" y="-518"/>
         </scene>
         <!--Update Entry View Controller-->
         <scene sceneID="t7t-d8-8xW">
@@ -377,7 +381,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xvY-3T-Y3m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4102" y="-63"/>
+            <point key="canvasLocation" x="4094" y="-518"/>
         </scene>
         <!--Add Category View Controller-->
         <scene sceneID="ZKI-Xn-exk">
@@ -402,7 +406,7 @@
                                             <constraint firstAttribute="height" constant="40" id="rec-04-kbg"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                        <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUe-J1-7lb">
                                         <rect key="frame" x="30" y="126.3333333333333" width="240" height="26.333333333333329"/>
@@ -458,6 +462,9 @@
                                 <rect key="frame" x="355.66666666666669" y="79" width="17.333333333333314" height="22"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="xmark" catalog="system"/>
+                                <connections>
+                                    <action selector="btnCloseTapped:" destination="24u-g8-1te" eventType="touchUpInside" id="DPD-lX-x7C"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OaA-9y-vtZ"/>
@@ -472,11 +479,12 @@
                     <connections>
                         <outlet property="txtCategoryInitialAmount" destination="Nfd-s8-KMd" id="qhE-cL-Xww"/>
                         <outlet property="txtCategoryName" destination="WsF-Qf-2zz" id="Yl3-x6-bZq"/>
+                        <outlet property="viewPopup" destination="q41-OL-W28" id="PyN-Qo-aSA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bRQ-ND-iB0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4902" y="-63"/>
+            <point key="canvasLocation" x="4094" y="255"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="9T7-oK-eiF">
@@ -565,7 +573,10 @@
                                     <constraint firstAttribute="height" constant="50" id="aPz-q8-dQ1"/>
                                 </constraints>
                                 <color key="tintColor" systemColor="labelColor"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Add Category" cornerStyle="capsule"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Add New Expense" cornerStyle="capsule"/>
+                                <connections>
+                                    <segue destination="24u-g8-1te" kind="presentation" modalPresentationStyle="fullScreen" id="ioK-Ex-M80"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZV8-Vf-ZB3"/>
@@ -593,6 +604,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="ioK-Ex-M80"/>
         <segue reference="WKn-mx-bUf"/>
     </inferredMetricsTieBreakers>
     <resources>

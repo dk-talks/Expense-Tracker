@@ -45,6 +45,15 @@ class BudgetViewController: UIViewController {
             tableViewForBudget.deselectRow(at: selectedIndexPath, animated: true)
         }
         
+        if(Global.isNewCategoryAdded) {
+            let newCategory = Budget(context: Global.context)
+            newCategory.amount = Global.newCategoryAmount
+            newCategory.name = Global.newCategoryName
+            saveBudget()
+            fetchBudget()
+            Global.isNewCategoryAdded = false
+        }
+        
         
     }
     
@@ -67,7 +76,12 @@ class BudgetViewController: UIViewController {
             print("error in saving budget to lcal storage: \(error)")
         }
     }
-
+    
+    
+    @IBAction func btnAddBudgetCategoryTapped(_ sender: Any) {
+        
+    }
+    
 
 }
 

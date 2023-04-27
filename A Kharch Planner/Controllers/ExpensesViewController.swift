@@ -47,6 +47,16 @@ class ExpensesViewController: UIViewController {
         }
         
         
+        if(Global.isNewCategoryAdded) {
+            let newCategory = Expense(context: Global.context)
+            newCategory.amount = Global.newCategoryAmount
+            newCategory.name = Global.newCategoryName
+            saveExepenses()
+            fetchExpenses()
+            Global.isNewCategoryAdded = false
+        }
+        
+        
     }
     
     public func fetchExpenses() {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1B7CCE18E46ED6838231DA /* Pods_A_Kharch_Planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E13D9D3AA6D46969BE54F5 /* Pods_A_Kharch_Planner.framework */; };
 		B527736429F8FF8500A10F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527736329F8FF8500A10F04 /* AppDelegate.swift */; };
 		B527736629F8FF8500A10F04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527736529F8FF8500A10F04 /* SceneDelegate.swift */; };
 		B527736829F8FF8500A10F04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527736729F8FF8500A10F04 /* ViewController.swift */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31B7C94CC735874BCD685E61 /* Pods-A Kharch Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A Kharch Planner.debug.xcconfig"; path = "Target Support Files/Pods-A Kharch Planner/Pods-A Kharch Planner.debug.xcconfig"; sourceTree = "<group>"; };
+		94E13D9D3AA6D46969BE54F5 /* Pods_A_Kharch_Planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A_Kharch_Planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B527736029F8FF8500A10F04 /* A Kharch Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Kharch Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B527736329F8FF8500A10F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B527736529F8FF8500A10F04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 		B527739029F986A400A10F04 /* GlobalObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalObjects.swift; sourceTree = "<group>"; };
 		B527739229F995B300A10F04 /* UpdateEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEntryViewController.swift; sourceTree = "<group>"; };
 		B527739429FA5ADE00A10F04 /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		D1A9634908F7AE3B845DB528 /* Pods-A Kharch Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A Kharch Planner.release.xcconfig"; path = "Target Support Files/Pods-A Kharch Planner/Pods-A Kharch Planner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,17 +61,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A1B7CCE18E46ED6838231DA /* Pods_A_Kharch_Planner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D615C7E42BDCB96BC5113CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31B7C94CC735874BCD685E61 /* Pods-A Kharch Planner.debug.xcconfig */,
+				D1A9634908F7AE3B845DB528 /* Pods-A Kharch Planner.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B527735729F8FF8400A10F04 = {
 			isa = PBXGroup;
 			children = (
 				B527736229F8FF8500A10F04 /* A Kharch Planner */,
 				B527736129F8FF8500A10F04 /* Products */,
+				3D615C7E42BDCB96BC5113CF /* Pods */,
+				F1A8046054AFC302D75E4A74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +147,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F1A8046054AFC302D75E4A74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94E13D9D3AA6D46969BE54F5 /* Pods_A_Kharch_Planner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B527737729F8FF8700A10F04 /* Build configuration list for PBXNativeTarget "A Kharch Planner" */;
 			buildPhases = (
+				825EDA263ECC409612B808D8 /* [CP] Check Pods Manifest.lock */,
 				B527735C29F8FF8500A10F04 /* Sources */,
 				B527735D29F8FF8500A10F04 /* Frameworks */,
 				B527735E29F8FF8500A10F04 /* Resources */,
+				9E92590BA66E0A8F44C98F02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +222,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		825EDA263ECC409612B808D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-A Kharch Planner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E92590BA66E0A8F44C98F02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-A Kharch Planner/Pods-A Kharch Planner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-A Kharch Planner/Pods-A Kharch Planner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-A Kharch Planner/Pods-A Kharch Planner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B527735C29F8FF8500A10F04 /* Sources */ = {
@@ -358,6 +427,7 @@
 		};
 		B527737829F8FF8700A10F04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B7C94CC735874BCD685E61 /* Pods-A Kharch Planner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -387,6 +457,7 @@
 		};
 		B527737929F8FF8700A10F04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A9634908F7AE3B845DB528 /* Pods-A Kharch Planner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
