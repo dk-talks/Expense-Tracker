@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B527736429F8FF8500A10F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527736329F8FF8500A10F04 /* AppDelegate.swift */; };
+		B527736629F8FF8500A10F04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527736529F8FF8500A10F04 /* SceneDelegate.swift */; };
+		B527736829F8FF8500A10F04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527736729F8FF8500A10F04 /* ViewController.swift */; };
+		B527736B29F8FF8500A10F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B527736929F8FF8500A10F04 /* Main.storyboard */; };
+		B527736E29F8FF8500A10F04 /* A_Kharch_Planner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B527736C29F8FF8500A10F04 /* A_Kharch_Planner.xcdatamodeld */; };
+		B527737029F8FF8700A10F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B527736F29F8FF8700A10F04 /* Assets.xcassets */; };
+		B527737329F8FF8700A10F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B527737129F8FF8700A10F04 /* LaunchScreen.storyboard */; };
+		B527737E29F9500200A10F04 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527737D29F9500200A10F04 /* TabBarViewController.swift */; };
+		B527738029F9526E00A10F04 /* TotalBudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527737F29F9526E00A10F04 /* TotalBudgetViewController.swift */; };
+		B527738229F954B700A10F04 /* TotalExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527738129F954B700A10F04 /* TotalExpenseViewController.swift */; };
+		B527738429F954CD00A10F04 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527738329F954CD00A10F04 /* BudgetViewController.swift */; };
+		B527738629F954DA00A10F04 /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527738529F954DA00A10F04 /* ExpensesViewController.swift */; };
+		B527738829F954F100A10F04 /* AnalyseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527738729F954F100A10F04 /* AnalyseViewController.swift */; };
+		B527738B29F957FA00A10F04 /* BudgetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527738A29F957FA00A10F04 /* BudgetTableViewCell.swift */; };
+		B527738D29F9580700A10F04 /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527738C29F9580700A10F04 /* ExpenseTableViewCell.swift */; };
+		B527738F29F95E3000A10F04 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527738E29F95E3000A10F04 /* DataModel.swift */; };
+		B527739129F986A400A10F04 /* GlobalObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527739029F986A400A10F04 /* GlobalObjects.swift */; };
+		B527739329F995B300A10F04 /* UpdateEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527739229F995B300A10F04 /* UpdateEntryViewController.swift */; };
+		B527739529FA5ADE00A10F04 /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527739429FA5ADE00A10F04 /* AddCategoryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B527736029F8FF8500A10F04 /* A Kharch Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Kharch Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B527736329F8FF8500A10F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B527736529F8FF8500A10F04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B527736729F8FF8500A10F04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B527736A29F8FF8500A10F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B527736D29F8FF8500A10F04 /* A_Kharch_Planner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = A_Kharch_Planner.xcdatamodel; sourceTree = "<group>"; };
+		B527736F29F8FF8700A10F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B527737229F8FF8700A10F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B527737429F8FF8700A10F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B527737D29F9500200A10F04 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		B527737F29F9526E00A10F04 /* TotalBudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalBudgetViewController.swift; sourceTree = "<group>"; };
+		B527738129F954B700A10F04 /* TotalExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalExpenseViewController.swift; sourceTree = "<group>"; };
+		B527738329F954CD00A10F04 /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
+		B527738529F954DA00A10F04 /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		B527738729F954F100A10F04 /* AnalyseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyseViewController.swift; sourceTree = "<group>"; };
+		B527738A29F957FA00A10F04 /* BudgetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTableViewCell.swift; sourceTree = "<group>"; };
+		B527738C29F9580700A10F04 /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		B527738E29F95E3000A10F04 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		B527739029F986A400A10F04 /* GlobalObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalObjects.swift; sourceTree = "<group>"; };
+		B527739229F995B300A10F04 /* UpdateEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEntryViewController.swift; sourceTree = "<group>"; };
+		B527739429FA5ADE00A10F04 /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B527735D29F8FF8500A10F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B527735729F8FF8400A10F04 = {
+			isa = PBXGroup;
+			children = (
+				B527736229F8FF8500A10F04 /* A Kharch Planner */,
+				B527736129F8FF8500A10F04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B527736129F8FF8500A10F04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B527736029F8FF8500A10F04 /* A Kharch Planner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B527736229F8FF8500A10F04 /* A Kharch Planner */ = {
+			isa = PBXGroup;
+			children = (
+				B527736329F8FF8500A10F04 /* AppDelegate.swift */,
+				B527736529F8FF8500A10F04 /* SceneDelegate.swift */,
+				B527739029F986A400A10F04 /* GlobalObjects.swift */,
+				B527737C29F91B3700A10F04 /* Model */,
+				B527737B29F91B2600A10F04 /* Views */,
+				B527737A29F91B0100A10F04 /* Controllers */,
+				B527736F29F8FF8700A10F04 /* Assets.xcassets */,
+				B527737429F8FF8700A10F04 /* Info.plist */,
+				B527736C29F8FF8500A10F04 /* A_Kharch_Planner.xcdatamodeld */,
+			);
+			path = "A Kharch Planner";
+			sourceTree = "<group>";
+		};
+		B527737A29F91B0100A10F04 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B527736729F8FF8500A10F04 /* ViewController.swift */,
+				B527737D29F9500200A10F04 /* TabBarViewController.swift */,
+				B527737F29F9526E00A10F04 /* TotalBudgetViewController.swift */,
+				B527738129F954B700A10F04 /* TotalExpenseViewController.swift */,
+				B527738329F954CD00A10F04 /* BudgetViewController.swift */,
+				B527738529F954DA00A10F04 /* ExpensesViewController.swift */,
+				B527738729F954F100A10F04 /* AnalyseViewController.swift */,
+				B527739229F995B300A10F04 /* UpdateEntryViewController.swift */,
+				B527739429FA5ADE00A10F04 /* AddCategoryViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B527737B29F91B2600A10F04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B527736929F8FF8500A10F04 /* Main.storyboard */,
+				B527737129F8FF8700A10F04 /* LaunchScreen.storyboard */,
+				B527738A29F957FA00A10F04 /* BudgetTableViewCell.swift */,
+				B527738C29F9580700A10F04 /* ExpenseTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B527737C29F91B3700A10F04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B527738E29F95E3000A10F04 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B527735F29F8FF8500A10F04 /* A Kharch Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B527737729F8FF8700A10F04 /* Build configuration list for PBXNativeTarget "A Kharch Planner" */;
+			buildPhases = (
+				B527735C29F8FF8500A10F04 /* Sources */,
+				B527735D29F8FF8500A10F04 /* Frameworks */,
+				B527735E29F8FF8500A10F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "A Kharch Planner";
+			productName = "A Kharch Planner";
+			productReference = B527736029F8FF8500A10F04 /* A Kharch Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B527735829F8FF8400A10F04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B527735F29F8FF8500A10F04 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B527735B29F8FF8500A10F04 /* Build configuration list for PBXProject "A Kharch Planner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B527735729F8FF8400A10F04;
+			productRefGroup = B527736129F8FF8500A10F04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B527735F29F8FF8500A10F04 /* A Kharch Planner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B527735E29F8FF8500A10F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B527737329F8FF8700A10F04 /* LaunchScreen.storyboard in Resources */,
+				B527737029F8FF8700A10F04 /* Assets.xcassets in Resources */,
+				B527736B29F8FF8500A10F04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B527735C29F8FF8500A10F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B527739529FA5ADE00A10F04 /* AddCategoryViewController.swift in Sources */,
+				B527738D29F9580700A10F04 /* ExpenseTableViewCell.swift in Sources */,
+				B527738029F9526E00A10F04 /* TotalBudgetViewController.swift in Sources */,
+				B527738229F954B700A10F04 /* TotalExpenseViewController.swift in Sources */,
+				B527738829F954F100A10F04 /* AnalyseViewController.swift in Sources */,
+				B527736829F8FF8500A10F04 /* ViewController.swift in Sources */,
+				B527736E29F8FF8500A10F04 /* A_Kharch_Planner.xcdatamodeld in Sources */,
+				B527738F29F95E3000A10F04 /* DataModel.swift in Sources */,
+				B527736429F8FF8500A10F04 /* AppDelegate.swift in Sources */,
+				B527739329F995B300A10F04 /* UpdateEntryViewController.swift in Sources */,
+				B527737E29F9500200A10F04 /* TabBarViewController.swift in Sources */,
+				B527739129F986A400A10F04 /* GlobalObjects.swift in Sources */,
+				B527736629F8FF8500A10F04 /* SceneDelegate.swift in Sources */,
+				B527738429F954CD00A10F04 /* BudgetViewController.swift in Sources */,
+				B527738B29F957FA00A10F04 /* BudgetTableViewCell.swift in Sources */,
+				B527738629F954DA00A10F04 /* ExpensesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B527736929F8FF8500A10F04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B527736A29F8FF8500A10F04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B527737129F8FF8700A10F04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B527737229F8FF8700A10F04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B527737529F8FF8700A10F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B527737629F8FF8700A10F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B527737829F8FF8700A10F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "A Kharch Planner/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.A-Kharch-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B527737929F8FF8700A10F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "A Kharch Planner/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.A-Kharch-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B527735B29F8FF8500A10F04 /* Build configuration list for PBXProject "A Kharch Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B527737529F8FF8700A10F04 /* Debug */,
+				B527737629F8FF8700A10F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B527737729F8FF8700A10F04 /* Build configuration list for PBXNativeTarget "A Kharch Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B527737829F8FF8700A10F04 /* Debug */,
+				B527737929F8FF8700A10F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B527736C29F8FF8500A10F04 /* A_Kharch_Planner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B527736D29F8FF8500A10F04 /* A_Kharch_Planner.xcdatamodel */,
+			);
+			currentVersion = B527736D29F8FF8500A10F04 /* A_Kharch_Planner.xcdatamodel */;
+			path = A_Kharch_Planner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B527735829F8FF8400A10F04 /* Project object */;
+}
