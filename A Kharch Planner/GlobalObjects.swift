@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import CoreData
 
 struct Global {
     
@@ -28,5 +29,6 @@ struct Global {
     static var newCategoryName: String = ""
     static var newCategoryAmount: Double = 0
     static var isNewCategoryAdded: Bool = false
+    
     
 }
