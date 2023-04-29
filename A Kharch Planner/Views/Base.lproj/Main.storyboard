@@ -26,7 +26,7 @@
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvt-by-tj2">
-                                <rect key="frame" x="20" y="253" width="353" height="455"/>
+                                <rect key="frame" x="20" y="289" width="353" height="419"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -44,19 +44,28 @@
                                     <segue destination="4rW-m3-paa" kind="show" id="DEw-xc-zXn"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Kharch Planner" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y80-yn-YL8">
+                                <rect key="frame" x="20" y="233" width="353" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="w9V-jw-jjN" firstAttribute="top" secondItem="cvt-by-tj2" secondAttribute="bottom" constant="30" id="D2a-7h-PVX"/>
+                            <constraint firstItem="y80-yn-YL8" firstAttribute="top" secondItem="qB3-7c-Q1O" secondAttribute="bottom" constant="10" id="EUo-N8-yBY"/>
+                            <constraint firstItem="y80-yn-YL8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="K69-gH-nQP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cvt-by-tj2" secondAttribute="trailing" constant="20" id="RfV-sy-1gv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w9V-jw-jjN" secondAttribute="trailing" constant="30" id="TTs-uI-BKE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y80-yn-YL8" secondAttribute="trailing" constant="20" id="ZR6-MD-GG0"/>
                             <constraint firstItem="qB3-7c-Q1O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Zwv-4A-uWZ"/>
                             <constraint firstItem="w9V-jw-jjN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="h1N-MZ-QKn"/>
                             <constraint firstItem="cvt-by-tj2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jIc-cq-5bW"/>
+                            <constraint firstItem="cvt-by-tj2" firstAttribute="top" secondItem="y80-yn-YL8" secondAttribute="bottom" constant="20" id="lrn-6J-MIr"/>
                             <constraint firstItem="qB3-7c-Q1O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mdw-7u-I6u"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="w9V-jw-jjN" secondAttribute="bottom" constant="30" id="quv-0r-hXt"/>
-                            <constraint firstItem="cvt-by-tj2" firstAttribute="top" secondItem="qB3-7c-Q1O" secondAttribute="bottom" constant="30" id="whY-Gv-soP"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="tHc-5V-5Vh"/>
@@ -67,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="898" y="5"/>
+            <point key="canvasLocation" x="896.94656488549617" y="4.9295774647887329"/>
         </scene>
         <!--Analyze-->
         <scene sceneID="3ti-pi-6vi">
@@ -76,14 +85,84 @@
                     <view key="view" contentMode="scaleToFill" id="6dV-Hu-P3I">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expense Tracker Chart" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlj-e2-EyL">
+                                <rect key="frame" x="20" y="123.00000000000001" width="353" height="33.666666666666671"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try to keep Red Bar below Blue." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ts-o7-HZN">
+                                <rect key="frame" x="20" y="665" width="353" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" pointerInteraction="YES" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cTz-G2-zV8">
+                                <rect key="frame" x="40" y="699" width="313" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="O5f-i9-fI1"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <buttonConfiguration key="configuration" style="gray" title="View Saving Guide" cornerStyle="capsule"/>
+                                <connections>
+                                    <segue destination="o7Q-3R-Nx0" kind="show" id="h8l-zh-A0C"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="9QM-T3-Tjw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rlj-e2-EyL" firstAttribute="leading" secondItem="9QM-T3-Tjw" secondAttribute="leading" constant="20" id="0w6-Xb-Xtq"/>
+                            <constraint firstItem="5ts-o7-HZN" firstAttribute="leading" secondItem="9QM-T3-Tjw" secondAttribute="leading" constant="20" id="ApT-MA-lkl"/>
+                            <constraint firstItem="9QM-T3-Tjw" firstAttribute="trailing" secondItem="5ts-o7-HZN" secondAttribute="trailing" constant="20" id="JxN-qB-c3w"/>
+                            <constraint firstItem="cTz-G2-zV8" firstAttribute="top" secondItem="5ts-o7-HZN" secondAttribute="bottom" constant="10" id="XJl-Mh-Bxa"/>
+                            <constraint firstItem="9QM-T3-Tjw" firstAttribute="trailing" secondItem="cTz-G2-zV8" secondAttribute="trailing" constant="40" id="bOz-Tf-Sw6"/>
+                            <constraint firstItem="rlj-e2-EyL" firstAttribute="top" secondItem="9QM-T3-Tjw" secondAttribute="top" constant="20" id="jhb-Qf-Xg2"/>
+                            <constraint firstItem="9QM-T3-Tjw" firstAttribute="bottom" secondItem="cTz-G2-zV8" secondAttribute="bottom" constant="20" id="r5s-yQ-haR"/>
+                            <constraint firstItem="9QM-T3-Tjw" firstAttribute="trailing" secondItem="rlj-e2-EyL" secondAttribute="trailing" constant="20" id="vM5-Hf-5I6"/>
+                            <constraint firstItem="cTz-G2-zV8" firstAttribute="leading" secondItem="9QM-T3-Tjw" secondAttribute="leading" constant="40" id="yYk-Xi-Zdr"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Analyze" image="doc.badge.gearshape" catalog="system" selectedImage="doc.badge.gearshape.fill" id="blD-HO-NSs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wAX-Ky-aAg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1601" y="749"/>
+            <point key="canvasLocation" x="1600.7633587786258" y="748.59154929577471"/>
+        </scene>
+        <!--Saving Guide-->
+        <scene sceneID="p5Y-6Z-7g5">
+            <objects>
+                <viewController id="o7Q-3R-Nx0" customClass="SavingGuideViewController" customModule="A_Kharch_Planner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jgy-UN-J0V">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nI-YP-eHl">
+                                <rect key="frame" x="25" y="133" width="343" height="655"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="a2v-nE-eeu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="a2v-nE-eeu" firstAttribute="trailing" secondItem="6nI-YP-eHl" secondAttribute="trailing" constant="25" id="5Zv-nd-X9e"/>
+                            <constraint firstItem="6nI-YP-eHl" firstAttribute="top" secondItem="a2v-nE-eeu" secondAttribute="top" constant="30" id="Lbn-q7-qnw"/>
+                            <constraint firstItem="6nI-YP-eHl" firstAttribute="leading" secondItem="a2v-nE-eeu" secondAttribute="leading" constant="25" id="Rgc-oF-iMH"/>
+                            <constraint firstItem="a2v-nE-eeu" firstAttribute="bottom" secondItem="6nI-YP-eHl" secondAttribute="bottom" constant="30" id="Sic-rr-JHZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Saving Guide" id="WFO-vd-XKX"/>
+                    <connections>
+                        <outlet property="txtView" destination="6nI-YP-eHl" id="VWl-J8-cAE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EIb-8f-Moo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2436" y="915"/>
         </scene>
         <!--Your Expenses-->
         <scene sceneID="VcD-9q-xeI">
@@ -604,7 +683,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ioK-Ex-M80"/>
+        <segue reference="J8e-Xh-gDy"/>
         <segue reference="WKn-mx-bUf"/>
     </inferredMetricsTieBreakers>
     <resources>

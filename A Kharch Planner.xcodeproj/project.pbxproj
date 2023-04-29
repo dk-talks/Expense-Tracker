@@ -27,6 +27,7 @@
 		B527739129F986A400A10F04 /* GlobalObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527739029F986A400A10F04 /* GlobalObjects.swift */; };
 		B527739329F995B300A10F04 /* UpdateEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527739229F995B300A10F04 /* UpdateEntryViewController.swift */; };
 		B527739529FA5ADE00A10F04 /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527739429FA5ADE00A10F04 /* AddCategoryViewController.swift */; };
+		B5E6936529FC034900FF1CC5 /* SavingGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E6936429FC034900FF1CC5 /* SavingGuideViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		B527739029F986A400A10F04 /* GlobalObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalObjects.swift; sourceTree = "<group>"; };
 		B527739229F995B300A10F04 /* UpdateEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEntryViewController.swift; sourceTree = "<group>"; };
 		B527739429FA5ADE00A10F04 /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		B5E6936429FC034900FF1CC5 /* SavingGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingGuideViewController.swift; sourceTree = "<group>"; };
 		D1A9634908F7AE3B845DB528 /* Pods-A Kharch Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A Kharch Planner.release.xcconfig"; path = "Target Support Files/Pods-A Kharch Planner/Pods-A Kharch Planner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +76,6 @@
 				31B7C94CC735874BCD685E61 /* Pods-A Kharch Planner.debug.xcconfig */,
 				D1A9634908F7AE3B845DB528 /* Pods-A Kharch Planner.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -124,6 +125,7 @@
 				B527738729F954F100A10F04 /* AnalyseViewController.swift */,
 				B527739229F995B300A10F04 /* UpdateEntryViewController.swift */,
 				B527739429FA5ADE00A10F04 /* AddCategoryViewController.swift */,
+				B5E6936429FC034900FF1CC5 /* SavingGuideViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -278,6 +280,7 @@
 				B527736829F8FF8500A10F04 /* ViewController.swift in Sources */,
 				B527736E29F8FF8500A10F04 /* A_Kharch_Planner.xcdatamodeld in Sources */,
 				B527738F29F95E3000A10F04 /* DataModel.swift in Sources */,
+				B5E6936529FC034900FF1CC5 /* SavingGuideViewController.swift in Sources */,
 				B527736429F8FF8500A10F04 /* AppDelegate.swift in Sources */,
 				B527739329F995B300A10F04 /* UpdateEntryViewController.swift in Sources */,
 				B527737E29F9500200A10F04 /* TabBarViewController.swift in Sources */,
